@@ -38,10 +38,9 @@ while True:
     print("addgps")
     frame.add_gps(1,gps.get_latitude(),gps.get_longitude(),gps.get_altitude())
     lora.send(bytes(frame.bytes()))
-    sleep(10)
+    sleep(2)
     print("loop")
 
 
 
 lora.close()
-
