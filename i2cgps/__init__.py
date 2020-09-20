@@ -1,3 +1,5 @@
+#I2C GPS module
+
 import smbus
 import struct
 import time
